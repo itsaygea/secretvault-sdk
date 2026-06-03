@@ -1,0 +1,23 @@
+{
+  "name": "@secretvault/sdk",
+  "version": "1.0.0",
+  "description": "Client SDK for SecretVault — encrypted secret management with credential proxying. No .env files needed, just a server URL and linking key.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": "./dist/index.js" },
+  "files": ["dist"],
+  "keywords": ["secrets", "vault", "credential-proxy", "mcp", "encryption", "secret-management"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsaygea/secretvault-sdk.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}
