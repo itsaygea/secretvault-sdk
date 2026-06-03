@@ -1,6 +1,6 @@
 # SecretVault SDK
 
-Client SDK for [SecretVault](https://github.com/itsaygea/secretvault-mcp) — an encrypted secret management system with credential proxying. No `.env` files, no master keys, no database credentials. Just a server URL and a linking key.
+Client SDK for [SecretVault](https://github.com/itsaygea/secretvault-mcp) — encrypted secret management with credential proxying.
 
 ## Install
 
@@ -11,7 +11,7 @@ npm install git+https://github.com/itsaygea/secretvault-sdk.git
 ## Quick Start
 
 ```typescript
-import { SecretVault } from '@secretvault/sdk';
+import { SecretVault } from '@itsaygea/secretvault-sdk';
 
 const vault = new SecretVault({
   serverUrl: 'http://your-server:3004',

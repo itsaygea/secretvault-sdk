@@ -1,5 +1,5 @@
 {
-  "name": "@secretvault/sdk",
+  "name": "@itsaygea/secretvault-sdk",
   "version": "1.0.0",
   "description": "Client SDK for SecretVault — encrypted secret management with credential proxying. No .env files needed, just a server URL and linking key.",
   "main": "./dist/index.js",

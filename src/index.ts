@@ -5,7 +5,7 @@
  * Supabase credentials needed. All operations go through the REST API.
  *
  * Usage:
- *   import { SecretVault } from '@secretvault/sdk';
+ *   import { SecretVault } from '@itsaygea/secretvault-sdk';
  *   const vault = new SecretVault({ serverUrl: 'http://localhost:3004', linkingKey: 'sv_abc...' });
  *   await vault.listSecrets();
  *   await vault.proxyFetch('my-service', '/api/v2/data');
